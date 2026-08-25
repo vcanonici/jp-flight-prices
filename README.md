@@ -19,4 +19,16 @@ Cada linha representa o menor preço comparável encontrado para uma rota em uma
 
 A coleta é executada por uma tarefa agendada do ChatGPT. Após cada coleta, o ChatGPT atualiza o CSV e faz commit no `main`.
 
-A pipeline do GitHub Actions valida o schema e a integridade básica do dataset em pushes e pull requests.
+A pipeline do GitHub Actions valida o schema e a integridade básica do dataset em pushes e pull requests. Outra Action regenera automaticamente a tabela abaixo sempre que o CSV muda.
+
+<!-- PRICE_HISTORY_START -->
+## Histórico de preços
+
+Menor tarifa de ida e volta encontrada em cada execução diária.
+
+| Dia | LIS → Tóquio | OPO → Tóquio | LIS → Osaka | OPO → Osaka |
+|---|---:|---:|---:|---:|
+| sem dados | — | — | — | — |
+
+_Gerado automaticamente a partir de `data/flight_prices.csv`._
+<!-- PRICE_HISTORY_END -->
