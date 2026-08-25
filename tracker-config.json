@@ -1,0 +1,13 @@
+{
+  "currency": "EUR",
+  "trip_type": "round_trip",
+  "cabin": "economy",
+  "adults": 1,
+  "checked_timezone": "Europe/Lisbon",
+  "routes": [
+    {"origin": "LIS", "destination": "Tokyo", "airports": ["TYO", "HND", "NRT"]},
+    {"origin": "OPO", "destination": "Tokyo", "airports": ["TYO", "HND", "NRT"]},
+    {"origin": "LIS", "destination": "Osaka", "airports": ["OSA", "KIX"]},
+    {"origin": "OPO", "destination": "Osaka", "airports": ["OSA", "KIX"]}
+  ]
+}
