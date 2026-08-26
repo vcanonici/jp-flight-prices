@@ -28,6 +28,7 @@ Menor tarifa de ida e volta encontrada em cada execução diária.
 
 | Dia | LIS → Tóquio | OPO → Tóquio | LIS → Osaka | OPO → Osaka |
 |---|---:|---:|---:|---:|
+| 2026-08-26 | €754 | — | — | — |
 | 2026-08-25 | €882 | €737 | €730 | €728 |
 
 _Gerado automaticamente a partir de `data/flight_prices.csv`._
